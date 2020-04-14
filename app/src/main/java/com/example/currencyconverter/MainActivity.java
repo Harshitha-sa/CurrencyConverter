@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        eur = (TextView)findViewById(R.id.euro);
+        eur = (TextView)findViewById(R.id.eur);
         usd = (TextView)findViewById(R.id.usd);
         inr = (TextView)findViewById(R.id.inr);
         btn =(Button)findViewById(R.id.btn);
