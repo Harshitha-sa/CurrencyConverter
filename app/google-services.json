@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "9630297702",
+    "firebase_url": "https://financeassistant101.firebaseio.com",
+    "project_id": "financeassistant101",
+    "storage_bucket": "financeassistant101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9630297702:android:57900fad069c59395847a7",
+        "android_client_info": {
+          "package_name": "com.example.currencyconverter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9630297702-i3j99c34aq8m9s5uq5jsaq1rgao2o4j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCshqIyKBsTnUAjmb_CYvkjI0rPmPWQ8w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9630297702-i3j99c34aq8m9s5uq5jsaq1rgao2o4j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

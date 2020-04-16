@@ -40,5 +40,27 @@
         android:textSize="28dp"
         android:textColor="#ffff"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cryptocurrency"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Need help?, Speak to our assistant!"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:id="@+id/needhelptextview"
+        />
+    <Button android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ASSISTANT"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:id="@+id/assistantButton"
+    android:layout_below="@+id/needhelptextview"
+    android:layout_marginTop="50dp"
+    android:background="@color/colorPrimary"
+    android:textSize="28dp"
+    android:textColor="#ffff"/>
 
 </RelativeLayout>

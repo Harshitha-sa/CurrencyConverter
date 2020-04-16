@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class homesceen extends AppCompatActivity {
-    Button realcurrencybutton,cryptocurrencybutton;
+    Button realcurrencybutton,cryptocurrencybutton,AssistantButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,17 @@ public class homesceen extends AppCompatActivity {
                 gotocryptocurrencypage();
             }
         });
+        AssistantButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoAssistantActivity();
+            }
+        });
+    }
+
+    private void gotoAssistantActivity() {
+        Intent gotoAsiistantActivity = new Intent(homesceen.this,AssistantActivity.class);
+        startActivity(gotoAsiistantActivity);
     }
 
     private void gotorealcurrencypage() {
@@ -41,5 +52,6 @@ public class homesceen extends AppCompatActivity {
     private void initializefields() {
         realcurrencybutton=findViewById(R.id.realcurrency);
         cryptocurrencybutton=findViewById(R.id.cryptocurrency);
+        AssistantButton=findViewById(R.id.assistantButton);
     }
 }
