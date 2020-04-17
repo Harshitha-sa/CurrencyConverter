@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class homesceen extends AppCompatActivity {
-    Button realcurrencybutton,cryptocurrencybutton,AssistantButton;
+    Button realcurrencybutton,cryptocurrencybutton,AssistantButton,NewsButton,LoanButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,28 @@ public class homesceen extends AppCompatActivity {
                 gotoAssistantActivity();
             }
         });
+        NewsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoNewsActivity();
+            }
+        });
+        LoanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoLoanAnalizerActivity();
+            }
+        });
+    }
+
+    private void gotoLoanAnalizerActivity() {
+        Intent gotoLoanAnalizerActivity= new Intent(homesceen.this,UserLoanDetails.class);
+        startActivity(gotoLoanAnalizerActivity);
+    }
+
+    private void gotoNewsActivity() {
+        Intent gotonewsactivity= new Intent(homesceen.this,NewsMainPage.class);
+        startActivity(gotonewsactivity);
     }
 
     private void gotoAssistantActivity() {
@@ -53,5 +75,7 @@ public class homesceen extends AppCompatActivity {
         realcurrencybutton=findViewById(R.id.realcurrency);
         cryptocurrencybutton=findViewById(R.id.cryptocurrency);
         AssistantButton=findViewById(R.id.assistantButton);
+        NewsButton=findViewById(R.id.newsButton);
+        LoanButton=findViewById(R.id.LoanButton);
     }
 }

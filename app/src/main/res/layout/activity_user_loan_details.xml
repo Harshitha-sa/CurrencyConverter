@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLoanDetails">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the required details to know about your Personal Loan Eligibility"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:padding="10dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageLimitTextView"
+        android:layout_marginTop="275dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter your Age"
+        android:padding="10dp"
+        android:background="#FFFACD"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/workExperiencetextView"
+        android:layout_marginTop="20dp"
+
+        android:hint="Enter your years of experience"
+        android:padding="10dp"
+        android:layout_below="@+id/ageLimitTextView"
+        android:background="#FFFACD"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/incomeTextView"
+        android:layout_marginTop="20dp"
+
+        android:hint="Enter your monthly Income"
+        android:padding="10dp"
+        android:layout_below="@+id/workExperiencetextView"
+        android:background="#FFFACD"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Register"
+        android:id="@+id/submitButton"
+        android:layout_below="@+id/incomeTextView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#ccc"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+
+        />
+
+</RelativeLayout>

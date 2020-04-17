@@ -78,25 +78,6 @@ public class RegistrationActivity extends AppCompatActivity {
                     }
                 }
             });
-
-
-
-//            addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-//                @Override
-//                public void onComplete(@NonNull Task<AuthResult> task) {
-//                if(task.isSuccessful()){
-//                    Toast.makeText(RegistrationActivity.this, "Account Created Successfully", Toast.LENGTH_LONG).show();
-//                    loadingBar.dismiss();
-//                    createProfile();
-//                    gotohomescreen();
-//                }else{
-//                    String message = task.getException().toString();
-//                    Toast.makeText(RegistrationActivity.this, "Error : " + message, Toast.LENGTH_SHORT).show();
-//                    loadingBar.dismiss();
-//                }
-//                }
-//            });
-
         }
     }
 

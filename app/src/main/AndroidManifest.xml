@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SecoundFragment"></activity>
+        <activity android:name=".LoanResults"></activity>
+        <activity android:name=".UserLoanDetails" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".NewsMainPage" />
+        <activity android:name=".SecoundFragment" />
         <activity android:name=".FirstFragment" />
         <activity android:name=".AssistantActivity" />
         <activity android:name=".Loginactivity" />
