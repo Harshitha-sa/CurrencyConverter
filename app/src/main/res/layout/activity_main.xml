@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.currencyconverter.MainActivity"
-    android:background="@color/colorAccent">
+    >
 
     <include
         android:id="@+id/main_page_toolbar"
@@ -17,7 +17,7 @@
 
     <EditText
 
-        android:background="#fff"
+        android:background="#FFFACD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"

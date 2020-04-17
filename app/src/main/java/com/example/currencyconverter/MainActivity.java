@@ -197,11 +197,11 @@ public class MainActivity extends AppCompatActivity {
             Log.d("index2","onpost"+values[0]);
                 String msg1,msg2,msg3;
                 msg1=String.valueOf(values[0]);
-                usd.setText(msg1);
+                usd.setText("$ "+msg1);
                 msg2=String.valueOf(values[1]);
-                eur.setText(msg2);
+                eur.setText("€ "+msg2);
                 msg3=String.valueOf(values[2]);
-                inr.setText(msg3);
+                inr.setText("₹ "+msg3);
          }
         @Override
         protected Double[] doInBackground(String... strings) {

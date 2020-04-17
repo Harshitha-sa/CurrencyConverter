@@ -5,13 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoanResults">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have met the general eligibility requirements of the following green marked banks: "
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        />
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/sbi"
         android:id="@+id/sbi"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="55dp"
         android:layout_marginLeft="50dp"
         />
     <ImageView
@@ -21,7 +29,7 @@
         android:id="@+id/sbitick"
         android:layout_toRightOf="@+id/sbi"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="75dp"
         android:visibility="invisible"
         />
     <ImageView
@@ -41,7 +49,7 @@
         android:id="@+id/hdfctick"
         android:layout_toRightOf="@+id/hdfc"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="65dp"
         android:layout_below="@+id/sbitick"
         android:visibility="invisible"
         />

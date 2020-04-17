@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoanResults"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".LoanResults" />
         <activity android:name=".UserLoanDetails" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".NewsMainPage" />
@@ -17,6 +18,7 @@
         <activity android:name=".FirstFragment" />
         <activity android:name=".AssistantActivity" />
         <activity android:name=".Loginactivity" />
+        <activity android:name=".Addcontacts" />
         <activity android:name=".RegistrationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
